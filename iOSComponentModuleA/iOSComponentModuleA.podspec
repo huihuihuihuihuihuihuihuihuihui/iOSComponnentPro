@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
                     TODO：在这里添加对pod的详细描述。
                    DESC
 
-  s.homepage     = "https://github.com/huihuihuihuihuihuihuihuihuihui/iOSComponentModuleA.git"
+  s.homepage     = "https://github.com/huihuihuihuihuihuihuihuihuihui/iOSComponnentPro.git"
 
 
   s.license      = "MIT"
@@ -29,10 +29,10 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/huihuihuihuihuihuihuihuihuihui/iOSComponentModuleA.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/huihuihuihuihuihuihuihuihuihui/iOSComponnentPro.git", :tag => s.version.to_s }
 
 
-  s.source_files  = "iOSComponentModuleA/iOSComponentModuleA/Controller/**/*.{h,m}"
+#s.source_files  = "iOSComponentModuleA/iOSComponentModuleA/Controller/**/*.{h,m}"
 
   s.subspec 'Controller' do |ss|
     ss.source_files = "iOSComponentModuleA/iOSComponentModuleA/Controller/**/*.{h,m}"
