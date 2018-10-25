@@ -13,6 +13,7 @@
 		044861562181870A0066B412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044861552181870A0066B412 /* Assets.xcassets */; };
 		044861592181870A0066B412 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044861572181870A0066B412 /* LaunchScreen.storyboard */; };
 		0448615C2181870A0066B412 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0448615B2181870A0066B412 /* main.m */; };
+		04EE9ED021819DC90011526F /* CTMediator+ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE9ECF21819DC80011526F /* CTMediator+ModuleA.m */; };
 		6EB3F57E37F01627D72B683B /* libPods-ModuleACategory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA50C3A33A6156088FBF05EB /* libPods-ModuleACategory.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,8 @@
 		044861582181870A0066B412 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0448615A2181870A0066B412 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0448615B2181870A0066B412 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04EE9ECE21819DC80011526F /* CTMediator+ModuleA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+ModuleA.h"; sourceTree = "<group>"; };
+		04EE9ECF21819DC80011526F /* CTMediator+ModuleA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+ModuleA.m"; sourceTree = "<group>"; };
 		0D252D580CB7F81E0981F274 /* Pods-ModuleACategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleACategory.release.xcconfig"; path = "Pods/Target Support Files/Pods-ModuleACategory/Pods-ModuleACategory.release.xcconfig"; sourceTree = "<group>"; };
 		B027C98F756E0E97A1812541 /* Pods-ModuleACategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleACategory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ModuleACategory/Pods-ModuleACategory.debug.xcconfig"; sourceTree = "<group>"; };
 		DA50C3A33A6156088FBF05EB /* libPods-ModuleACategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ModuleACategory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +85,8 @@
 		044861622181877C0066B412 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				04EE9ECE21819DC80011526F /* CTMediator+ModuleA.h */,
+				04EE9ECF21819DC80011526F /* CTMediator+ModuleA.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -196,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04486151218186E40066B412 /* ViewController.m in Sources */,
+				04EE9ED021819DC90011526F /* CTMediator+ModuleA.m in Sources */,
 				0448615C2181870A0066B412 /* main.m in Sources */,
 				0448614E218186E40066B412 /* AppDelegate.m in Sources */,
 			);
